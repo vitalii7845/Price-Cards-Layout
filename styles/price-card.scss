@@ -51,16 +51,29 @@
               display: flex;
               justify-content: center;
               align-items: center;
-              position: absolute;
+
               width: 147px;
-              height: 25px;
+              height: 25.01px;
               background: #dc3f45;
               font-weight: 700;
               font-size: 14px;
               line-height: 17px;
               color: #ffffff;
               border: none;
-              transform: translate(-10px, 28px) rotate(45deg);
+              // position: absolute;
+              // transform: translate(-10px, 28px) rotate(45deg);
+
+              position: absolute;
+              left: -12%;
+              top: 26.71%;
+
+              transform: rotate(45deg);
+
+              // height: 17px;
+              // left: 32.86%;
+              // right: 5.04%;
+              // top: calc(50% - 17px / 2 - 25.29px);
+              // transform: rotate(45deg);
             }
           }
         }
