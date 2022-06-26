@@ -47,18 +47,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
   width: 147px;
-  height: 25.01px;
+  height: 25px;
   background: #dc3f45;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
   border: none;
-  position: absolute;
-  left: -12%;
-  top: 26.71%;
-  transform: rotate(45deg);
+  transform: translate(-10px, 28px) rotate(45deg);
 }
 .price-card:nth-child(3) .price-card__price, .price-card:nth-child(3) .price-card__order-btn {
   background-color: #ec632a;
@@ -92,7 +90,7 @@
   margin: 0;
   padding: 0;
   line-height: 105px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 55px;
 }
 .price-card__description {
