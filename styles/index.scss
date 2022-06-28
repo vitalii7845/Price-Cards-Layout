@@ -1,4 +1,6 @@
+@import 'veriables.scss';
 @import 'price-card';
+
 * {
   box-sizing: border-box;
 }
@@ -7,7 +9,7 @@ html,
 body {
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  color: #fff;
+  color: $color-white;
 }
 
 body {
