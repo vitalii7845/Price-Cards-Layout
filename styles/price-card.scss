@@ -1,181 +1,81 @@
-.price {
-  &__tables {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    width: 1440px;
-    height: 1000px;
-    background: #141b1c;
+.price-card {
+  position: relative;
+  overflow: hidden;
+  width: 380px;
+  padding: 33px 0 40px;
+  margin-right: 18px;
+  background: #334247;
+
+  &:last-child {
+    margin-right: 0;
   }
 
-  &-card {
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: center;
-    width: 380px;
-    height: 770px;
-    margin: 9px;
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-    background-color: #334247;
+  &__title {
+    text-align: center;
+    margin: 0;
+    line-height: 43px;
+    font-size: 35px;
+  }
 
-    &:nth-child(1) {
-      .price-card {
-        &__price,
-        &__order-btn {
-          background-color: #5bb189;
-        }
+  &__subtitle {
+    text-align: center;
+    margin: 0 0 33px;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 300;
+  }
 
-        &__title {
-          width: 100px;
-          margin: 33px 140px;
-        }
-      }
+  &__price {
+    text-align: center;
+    padding: 19px 110px;
+    margin-bottom: 40px;
+    line-height: 67px;
+    font-size: 55px;
+  }
+
+  &__description {
+    text-align: center;
+    width: 327px;
+    height: 36px;
+    margin-bottom: 40px;
+    margin-left: 26px;
+    margin-right: 26px;
+    font-weight: 300;
+  }
+
+  &__options-list {
+    padding: 0;
+    margin: 0 0 39px;
+    list-style: none;
+
+    & :nth-child(odd) {
+      background-color: #2a3438;
     }
+  }
 
-    &:nth-child(2) {
-      position: relative;
+  &__options-list-item {
+    padding: 16px 0;
+    font-weight: 300;
+  }
 
-      .price-card {
-        &__price,
-        &__order-btn {
-          background-color: #3a6ba5;
-        }
+  &__icon {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 0 22px;
+  }
 
-        &__title {
-          width: 163px;
-          margin: 33px 108px;
-
-          &-badge {
-            display: flex;
-            position: absolute;
-            width: 104px;
-            height: 104px;
-            transform: translate(276px);
-            overflow: hidden;
-
-            &__stripe {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              position: absolute;
-              width: 147px;
-              height: 25px;
-              transform: translate(-13px, 30px) rotate(45deg);
-              line-height: 17px;
-              font-size: 14px;
-              font-weight: 700;
-              background: #dc3f45;
-              color: $color-white;
-              border: none;
-            }
-          }
-        }
-      }
-    }
-
-    &:nth-child(3) {
-      .price-card {
-        &__price,
-        &__order-btn {
-          background-color: #ec632a;
-        }
-
-        &__title {
-          width: 176px;
-          margin: 36px 102px 33px 102px;
-        }
-      }
-    }
-
-    &__head {
-      display: flex;
-    }
-
-    &__title {
-      display: flex;
-      flex-direction: column;
-      height: 64px;
-      font-style: normal;
-      line-height: 43px;
-      font-size: 35px;
-      font-weight: 700;
-      text-align: center;
-
-      &-s {
-        line-height: 24px;
-        font-size: 20px;
-        font-weight: 300;
-      }
-    }
-
-    &__price {
-      text-align: center;
-      width: 100%;
-      height: 105px;
-      margin: 0;
-      padding: 0;
-      line-height: 105px;
-      font-size: 55px;
-      font-weight: 700;
-    }
-
-    &__description {
-      width: 327px;
-      height: 36px;
-      margin: 40px 26px;
-      line-height: 18px;
-      font-size: 15px;
-      font-weight: 300;
-      font-style: normal;
-      text-align: center;
-    }
-
-    &__options-list {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-
-      &__contain {
-        display: flex;
-        align-items: center;
-        height: 50px;
-        width: 100%;
-        font-size: 15px;
-
-        &:nth-child(odd) {
-          background-color: #2a3438;
-        }
-
-        &-checkmark {
-          width: 15px;
-          height: 13px;
-          margin: auto 22px;
-        }
-
-        &__description {
-          display: block;
-          width: 300px;
-          height: 18px;
-          margin: 16px 22px 16px 0;
-          line-height: 18px;
-        }
-      }
-    }
-
-    &__order-btn {
-      width: 154px;
-      height: 40px;
-      margin: 39px auto 40px;
-      line-height: 17px;
-      outline: none;
-      border: none;
-      border-radius: 20px;
-      font-size: 14px;
-      text-align: center;
-      color: $color-white;
-    }
+  &__badge {
+    position: absolute;
+    display: block;
+    right: -40px;
+    top: 34px;
+    text-align: center;
+    transform: rotate(45deg);
+    padding: 2px 50px;
+    line-height: 17px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #dc3f45;
   }
 }
