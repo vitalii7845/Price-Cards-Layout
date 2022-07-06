@@ -49,11 +49,15 @@
   overflow: hidden;
   width: 380px;
   padding: 33px 0 40px;
+  margin-top: 115px;
+  margin-bottom: 115px;
   margin-right: 18px;
   background: #334247;
 }
 .price-card:last-child {
   margin-right: 0;
+  margin-top: 112px;
+  margin-bottom: 118px;
 }
 .price-card__title {
   text-align: center;
@@ -128,10 +132,6 @@
 .price-cards__container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100vw;
-  width: 1440px;
-  height: 1000px;
   background-color: #141b1c;
 }
 
