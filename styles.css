@@ -131,11 +131,11 @@
 .price-cards__container {
   display: flex;
   height: 100vh;
-  background-color: #141b1c;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: auto;
+  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=styles.css.map */
