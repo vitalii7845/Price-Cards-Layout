@@ -49,6 +49,7 @@
   overflow: hidden;
   width: 380px;
   padding: 33px 0 40px;
+  align-items: center;
   margin-right: 18px;
   background: #334247;
 }
@@ -133,7 +134,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
