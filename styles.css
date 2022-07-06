@@ -55,6 +55,8 @@
 }
 .price-card:last-child {
   margin-right: 0;
+  margin-top: 112px;
+  margin-bottom: 118px;
 }
 .price-card__title {
   text-align: center;
@@ -99,7 +101,7 @@
 }
 .price-card__icon {
   display: inline-block;
-  width: 13px;
+  width: 15px;
   height: 13px;
   margin: 0 22px;
 }
