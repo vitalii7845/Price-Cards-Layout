@@ -2,7 +2,7 @@
 
 ### [Site link](https://vitalii7845.github.io/Price-Cards-Layout/)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
+Layout supports desktop (up-to-1440) versions
 
 ### The tech stack is:
 
