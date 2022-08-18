@@ -1,6 +1,6 @@
 # Price cards layout
 
-### [Site link](https://vitalii7845.github.io/project-html-second/)
+### [Site link](https://vitalii7845.github.io/Price-Cards-Layout/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
