@@ -5,7 +5,7 @@
   padding: 33px 0 40px;
   align-items: center;
   margin-right: 18px;
-  background: #334247;
+  background: $background-light-darck-color;
 
   &:last-child {
     margin-right: 0;
@@ -66,6 +66,30 @@
     width: 15px;
     height: 13px;
     margin: 0 22px;
+
+    &_second {
+      background-color: $background-light-darck-color !important;
+    }
+
+    &_fourth {
+      background-color: $background-light-darck-color !important;
+    }
+
+    &_sixth {
+      background-color: $background-light-darck-color !important;
+    }
+
+    &_green {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
+
+    &_blue {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+    }
+
+    &_orange {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+    }
   }
 
   &__badge {

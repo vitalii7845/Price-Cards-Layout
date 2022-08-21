@@ -14,16 +14,3 @@ $background-light-darck-color: #334247;
 .card_orange {
   background: $color-orange;
 }
-.green_icon {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-}
-.blue_icon {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-}
-.orange-icon {
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-}
-.icon-light-darck {
-  background-color: $background-light-darck-color !important;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-}
