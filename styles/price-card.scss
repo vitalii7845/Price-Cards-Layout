@@ -7,12 +7,6 @@
   margin-right: 18px;
   background: $background-light-darck-color;
 
-  &:last-child {
-    margin-right: 0;
-    margin-top: 112px;
-    margin-bottom: 118px;
-  }
-
   &__title {
     text-align: center;
     margin: 0;
@@ -34,6 +28,16 @@
     margin-bottom: 40px;
     line-height: 67px;
     font-size: 55px;
+
+    &_green {
+      background: $color-green;
+    }
+    &_blue {
+      background: $color-blue;
+    }
+    &_orange {
+      background: $color-orange;
+    }
   }
 
   &__description {
@@ -67,18 +71,6 @@
     height: 13px;
     margin: 0 22px;
 
-    &_second {
-      background-color: $background-light-darck-color !important;
-    }
-
-    &_fourth {
-      background-color: $background-light-darck-color !important;
-    }
-
-    &_sixth {
-      background-color: $background-light-darck-color !important;
-    }
-
     &_green {
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
     }
@@ -89,6 +81,30 @@
 
     &_orange {
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+    }
+  }
+
+  &__button {
+    display: block;
+    width: 155px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 17px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: $color-green;
+
+    &_green {
+      background: $color-green;
+    }
+    &_blue {
+      background: $color-blue;
+    }
+    &_orange {
+      background: $color-orange;
     }
   }
 
@@ -103,6 +119,8 @@
     line-height: 17px;
     font-size: 14px;
     text-transform: uppercase;
-    background-color: #dc3f45;
+    background-color: $background-red-color;
   }
 }
+
+// background-color: $background-light-darck-color !important;

@@ -1,32 +1,3 @@
-.card_green {
-  background: #5bb189;
-}
-
-.card_blue {
-  background: #3a6ba5;
-}
-
-.card_orange {
-  background: #ec632a;
-}
-
-.button {
-  display: block;
-  width: 155px;
-  height: 40px;
-  margin: 0 auto;
-  line-height: 17px;
-  border: none;
-  border-radius: 20px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.corect-weight-description {
-  font-weight: 400 !important;
-}
-
 .price-card {
   position: relative;
   overflow: hidden;
@@ -35,11 +6,6 @@
   align-items: center;
   margin-right: 18px;
   background: #334247;
-}
-.price-card:last-child {
-  margin-right: 0;
-  margin-top: 112px;
-  margin-bottom: 118px;
 }
 .price-card__title {
   text-align: center;
@@ -60,6 +26,15 @@
   margin-bottom: 40px;
   line-height: 67px;
   font-size: 55px;
+}
+.price-card__price_green {
+  background: #5bb189;
+}
+.price-card__price_blue {
+  background: #3a6ba5;
+}
+.price-card__price_orange {
+  background: #ec632a;
 }
 .price-card__description {
   text-align: center;
@@ -88,15 +63,6 @@
   height: 13px;
   margin: 0 22px;
 }
-.price-card__icon_second {
-  background-color: #334247 !important;
-}
-.price-card__icon_fourth {
-  background-color: #334247 !important;
-}
-.price-card__icon_sixth {
-  background-color: #334247 !important;
-}
 .price-card__icon_green {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
@@ -105,6 +71,28 @@
 }
 .price-card__icon_orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+.price-card__button {
+  display: block;
+  width: 155px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 17px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #5bb189;
+}
+.price-card__button_green {
+  background: #5bb189;
+}
+.price-card__button_blue {
+  background: #3a6ba5;
+}
+.price-card__button_orange {
+  background: #ec632a;
 }
 .price-card__badge {
   position: absolute;
