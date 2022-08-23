@@ -50,12 +50,12 @@
   margin: 0 0 39px;
   list-style: none;
 }
-.price-card__options-list :nth-child(odd) {
-  background-color: #2a3438;
-}
 .price-card__options-list-item {
   padding: 16px 0;
   font-weight: 300;
+}
+.price-card__options-list-item:nth-child(odd) {
+  background-color: #2a3438;
 }
 .price-card__icon {
   display: inline-block;
