@@ -7,6 +7,9 @@
   margin-right: 18px;
   background: #334247;
 }
+.price-card:last-child {
+  margin-right: 0;
+}
 .price-card__title {
   text-align: center;
   margin: 0;

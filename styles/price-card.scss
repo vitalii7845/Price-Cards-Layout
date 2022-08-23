@@ -7,6 +7,10 @@
   margin-right: 18px;
   background: $background-light-darck-color;
 
+  &:last-child {
+    margin-right: 0;
+  }
+
   &__title {
     text-align: center;
     margin: 0;
