@@ -13,4 +13,4 @@ Layout supports desktop (1440px) versions
 - [BEM methodology](https://en.bem.info/methodology/)
 
 ### Author
-- Khomyk Vitalii
+- Vitalii Khomyk
